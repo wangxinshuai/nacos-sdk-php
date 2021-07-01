@@ -13,6 +13,7 @@
 ## Nacos-Sdk-PHP
 
 Nacos-Sdk-PHP for PHP client allows you to access Nacos OpenAPI. [Open API Guide](https://nacos.io/en-us/docs/open-api.html)
+本项目fork tinywan/nacos-sdk-php 增加登录功能
 
 ## Requirements
 
@@ -20,7 +21,7 @@ Nacos-Sdk-PHP for PHP client allows you to access Nacos OpenAPI. [Open API Guide
 ## Installation
 
 ```powershell
-composer require tinywan/nacos-sdk-php
+composer require wangxinshuai/nacos-sdk-php
 ```
 ## Getting Started
 
