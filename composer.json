@@ -1,0 +1,38 @@
+{
+    "name": "tinywan/nacos-sdk-php",
+    "description": "PHP SDK For Nacos",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tinywan",
+            "email": "756684177@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.3|^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nacos\\": "src"
+        }
+    },
+    "require-dev": {
+        "ext-pcntl": "*",
+        "phpunit/phpunit": "~7.0|~8.0|~9.0",
+        "php-coveralls/php-coveralls": "^2.4"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nacos\\Tests\\": "tests"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+}
